@@ -23,7 +23,7 @@ def index_route():
             'user_activity': '/users/{user}/activity',
             'user_activity_answers': '/users/{user}/activity/answers',
             'user_activity_questions': '/users/{user}/activity/questions',
-            'user_activity_question_follows': '/users/{user}/activity/want_answers',
+            'user_activity_want_answers': '/users/{user}/activity/want_answers',
             'user_activity_votes': '/users/{user}/activity/votes'
         }
     })
